@@ -1,6 +1,10 @@
 body {
   margin: 0;
 }
+p {
+  margin: 0;
+}
+
 
 .first-name {
   font-size: 160px;
@@ -77,4 +81,37 @@ body {
 #about-me {
   font-family: 'Lato', sans-serif;
   color: darkgrey;
+  display: flex;
+  height: 100vh;
+  position: relative;
+}
+
+.about-description {
+  color: rgb(19, 31, 37);
+  font-weight: bold;
+}
+
+.me-left {
+  font-size: 20px;
+  position:absolute;
+  margin-top: 10%;
+  margin-left: 20%;
+  text-align: left;
+}
+
+.me-right {
+  font-size: 24px;
+  font-weight: lighter;
+  position:absolute;
+  margin-top: 6%;
+  margin-left: 50%;
+  padding-right: 20%;
+  line-height: 35px;
+  font-style: normal;
+  text-align: justify;
+}
+.my-name {
+  font-size: 30px;
+  color: rgb(2, 15, 23);
+  font-weight: lighter;
 }
